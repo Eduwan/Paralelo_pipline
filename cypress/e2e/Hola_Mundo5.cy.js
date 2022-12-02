@@ -1,12 +1,12 @@
 describe("Bienveido al curso de cypress - seccion1", () =>{
     
-    it("Mi 4o test -> Hola mundo", () =>{
+    it("Mi 5o test -> Hola mundo", () =>{
         cy.log("Hola mundo4")
         cy.wait(2000)
     })
 
 
-    it("Cuarto test -> Campo name", () => {
+    it("Quinto test -> Campo name", () => {
         cy.visit("https://testingqarvn.com.es/datos-personales/")
         
         cy.get("#wsf-1-field-21").type("Eduardo")

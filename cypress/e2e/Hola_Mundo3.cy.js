@@ -6,7 +6,7 @@ describe("Bienveido al curso de cypress - seccion1", () =>{
     })
 
 
-    it("Segundo test -> Campo name", () => {
+    it("Tercer test -> Campo name", () => {
         cy.visit("https://testingqarvn.com.es/datos-personales/")
         
         cy.get("#wsf-1-field-21").type("Eduardo")
