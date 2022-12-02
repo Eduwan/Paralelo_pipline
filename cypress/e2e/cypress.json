@@ -1,0 +1,33 @@
+[{
+
+"Platilla_Cypress": {
+    "prefix": "c_plantilla_cypress",
+    "body": [
+        "/// <reference types='Cypress' />",
+        "",
+        "require('cypress-plugin-tab')",
+        "require('cypress-xpath')",
+        "require('@4tw/cypress-drag-drop')",
+        "import 'cypress-file-upload'",
+        "",
+        "",
+        
+        "\tdescribe('${1:descripcion}', () => { ",
+            "\t\tit('${2:testcase}', () => { ",
+                "\t\t\tlet tiempo=1500",
+                "\t\t\tcy.visit('${3:url}')",
+                "\t\t\tcy.title().should('eq','${4:titulo}')",
+                "\t\t\tcy.wait(tiempo)",
+           "\t\t })",
+        
+        
+        "})  //Cierre describe"
+    ],
+    "description": "Plantilla Cypress"
+    },
+
+    "testFiles": "**/*.feature"
+
+}
+
+]

@@ -1,0 +1,11 @@
+[
+    {"nombre": "Eduardo", "apellidos": "Ruiz Pérez", "mail": "edu@gmail.com", "telefono": "678654321","direccion": "Paseo Farola, 33"},
+    {"nombre": "Manu", "apellidos": "Arribas Pérez", "mail": "edu1@gmail.com", "telefono": "678654322","direccion": "Paseo Farola, 34"},
+    {"nombre": "Alberto", "apellidos": "Ruiz Sanchez", "mail": "edu2@gmail.com", "telefono": "678654323","direccion": "Paseo Farola, 35"},
+    {"nombre": "Juan", "apellidos": "Rodriguez Pérez", "mail": "edu3@gmail.com", "telefono": "678654324","direccion": "Paseo Farola, 36"},
+    {"nombre": "Miguel", "apellidos": "Ruiz Jimenez", "mail": "edu4@gmail.com", "telefono": "678654325","direccion": "Paseo Farola, 38"}
+
+
+
+
+]
